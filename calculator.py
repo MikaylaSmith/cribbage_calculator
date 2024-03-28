@@ -158,27 +158,6 @@ def calculate():
     print("Ex: K clubs or A spades")
     print ("Enter 'done' when finished.")
 
-    # card = Card("A", "hearts")
-    # hand.append(card)
-    # card = Card("2", "spades")
-    # hand.append(card)
-    # card = Card("3", "clubs")
-    # hand.append(card)
-    # card = Card("4", "hearts")
-    # hand.append(card)
-
-    # flipped = Card("K", "clubs")
-
-    # card = Card("J", "hearts")
-    # hand.append(card)
-    # card = Card("Q", "spades")
-    # hand.append(card)
-    # card = Card("Q", "clubs")
-    # hand.append(card)
-    # card = Card("10", "hearts")
-    # hand.append(card)
-
-    # flipped = Card("5", "hearts")
     while True:
         card = input("Card: ")
         if card == "done":
